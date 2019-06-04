@@ -100,3 +100,6 @@ Installation of chefnode
 * you can check from command line tool also. --> sudo knife cookbook list
 * now from the UI of chef server you can drag and drop the recipe to the runlist and goto the chefnode and execute following command.
 * chef-client --> it will execute that recipe to the node.
+	
+	
+	

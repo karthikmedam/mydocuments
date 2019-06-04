@@ -98,3 +98,5 @@ Installation of chefnode
 * knife cookbook test <cookbook name> --> check the syntax of the cookbook.
 * knife cookbook upload <cookbook name> --> uploading the cookbook into the chefserver.
 * you can check from command line tool also. --> sudo knife cookbook list
+* now from the UI of chef server you can drag and drop the recipe to the runlist and goto the chefnode and execute following command.
+* chef-client --> it will execute that recipe to the node.

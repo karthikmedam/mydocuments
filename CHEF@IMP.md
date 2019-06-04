@@ -98,22 +98,3 @@ Installation of chefnode
 * knife cookbook test <cookbook name> --> check the syntax of the cookbook.
 * knife cookbook upload <cookbook name> --> uploading the cookbook into the chefserver.
 * you can check from command line tool also. --> sudo knife cookbook list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

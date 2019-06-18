@@ -3,7 +3,7 @@
 
 Chef server:
 -
-You can direct use hosted chef-server. For that you have to login to manage.chef.io and create an account.
+You can direct use hosted chef-server. For that you have to login to https://manage.chef.io and create an account.
 
 Chef server installation in Ubuntu
 -

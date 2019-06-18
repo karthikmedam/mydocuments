@@ -16,6 +16,7 @@ Chef server installation in Ubuntu
 * sudo chef-server-ctl status
 * sudo chef-server-ctl test (optional)
 * sudo chef-server-ctl service-list
+
 create user
 -
 * sudo chef-server-ctl user-create ramharig Ram Ghimire ghimire.ramhari87@gmail.com sanimabank --filename /home/ubuntu/ramharig.pem
@@ -25,6 +26,7 @@ create user
 	3. Email —> is user’s email
 	4. sanimabank —> is the password
 	5. /home/ubuntu/ramharig.pem —> create ramharig.pem key in home  
+
 Create org
 -
 * sudo chef-server-ctl org-create rhythm "rhythm.com" --association_user ramharig -f ~/rhythm-validator.pem
@@ -32,6 +34,7 @@ Create org
 	1. rhythm —> company short name
 	2. rhythm.com —> is organization long name
 	3. rhythm-validator.pem —> is organization’s key
+
 GUI for chef-server
 -
 * sudo chef-server-ctl install opscode-manage
@@ -49,6 +52,7 @@ workstaion:
 * Download the chef-dk in local machine or scp to the workstaion
 * unzip the file
 * cd chef-repo
+
 Bootstrap command (Linux)
 -
 * knife bootstrap 3.87.185.66 --ssh-user ec2-user --sudo -i ~/aws.pem -N nodenew2 -y

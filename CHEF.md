@@ -31,7 +31,7 @@ Create org
 -
 * sudo chef-server-ctl org-create rhythm "rhythm.com" --association_user ramharig -f ~/rhythm-validator.pem
 	* where,
-	1. rhythm —> company short name
+	1. rhythm —> organization short name
 	2. rhythm.com —> is organization long name
 	3. rhythm-validator.pem —> is organization’s key
 

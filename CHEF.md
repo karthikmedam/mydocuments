@@ -20,7 +20,7 @@ Chef server installation in Ubuntu
 create user
 -
 * sudo chef-server-ctl user-create ramharig Ram Ghimire ghimire.ramhari87@gmail.com sanimabank --filename /home/ubuntu/ramharig.pem
- 	where,
+ 	* where,
 	1. ramharig —> is username
 	2. Ram Ghimire —> full name of the user
 	3. Email —> is user’s email
@@ -30,7 +30,7 @@ create user
 Create org
 -
 * sudo chef-server-ctl org-create rhythm "rhythm.com" --association_user ramharig -f ~/rhythm-validator.pem
-	where,
+	* where,
 	1. rhythm —> company short name
 	2. rhythm.com —> is organization long name
 	3. rhythm-validator.pem —> is organization’s key
@@ -56,8 +56,8 @@ workstaion:
 Bootstrap command (Linux)
 -
 * knife bootstrap 3.87.185.66 --ssh-user ec2-user --sudo -i ~/aws.pem -N nodenew2 -y
-	1. Where, 
-	2. 3.87.185.66 —> is public ip of the node machine
-	3. —ssh-user ec2-user --sudo -i —> is commands
-	4. ~/ramhari.pem —> I have send my aws.pem file to the workstation’s home using scp commands. (EXAMPLE: aws.pem is my pem key to connect aws 		      machine which you create while lunching the ec2-instance)
-    5. -N nodenew2 -y —> is commands
+	* Where, 
+	1. 3.87.185.66 —> is public ip of the node machine
+	2. —ssh-user ec2-user --sudo -i —> is commands
+	3. ~/ramhari.pem —> I have send my aws.pem file to the workstation’s home using scp commands. (EXAMPLE: aws.pem is my pem key to connect aws 		      machine which you create while lunching the ec2-instance)
+        4. -N nodenew2 -y —> is commands

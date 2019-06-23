@@ -16,22 +16,26 @@ Chef server installation in Ubuntu
 * sudo chef-server-ctl status
 * sudo chef-server-ctl test (optional)
 * sudo chef-server-ctl service-list
+
 create user
 -
-* sudo chef-server-ctl user-create ramharig Ram Ghimire ghimire.ramhari87@gmail.com sanimabank --filename /home/ubuntu/ramharig.pem
+* sudo chef-server-ctl user-create dhurbeg Dhurbe Rai rai.dhurebe123@gmail.com sanimabank --filename /home/ubuntu/dhurbeg.pem
  	where,
-	1. ramharig —> is username
-	2. Ram Ghimire —> full name of the user
+	1. dhrubeg —> is username
+	2. Dhurebe Rai —> full name of the user
 	3. Email —> is user’s email
 	4. sanimabank —> is the password
-	5. /home/ubuntu/ramharig.pem —> create ramharig.pem key in home  
+	5. /home/ubuntu/dhurbeg.pem —> create dhurbeg.pem key in home  
+
 Create org
 -
-* sudo chef-server-ctl org-create rhythm "rhythm.com" --association_user ramharig -f ~/rhythm-validator.pem
+* sudo chef-server-ctl org-create rhythm "rhythm.com" --association_user dhurbeg -f ~/rhythm-validator.pem
 	where,
 	1. rhythm —> company short name
 	2. rhythm.com —> is organization long name
-	3. rhythm-validator.pem —> is organization’s key
+	3. dhurbeg --> is a user
+	4. rhythm-validator.pem —> is organization’s key
+
 GUI for chef-server
 -
 * sudo chef-server-ctl install opscode-manage

@@ -25,7 +25,7 @@ create user
 	2. Dhurebe Rai —> full name of the user
 	3. Email —> is user’s email
 	4. sanimabank —> is the password
-	5. /home/ubuntu/dhurbeg.pem —> create dhurbeg.pem key in home  
+	5. /home/ubuntu/dhurbeg.pem —> create dhurbeg.pem key in home directory (it will create the user's .pem key)
 
 Create org
 -

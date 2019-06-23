@@ -62,7 +62,7 @@ Bootstrap command (Linux)
 	* Where, (to bootstrap you have to be in chef-repo directory)
 	1. 3.87.185.66 —> is public ip of the node machine
 	2. --ssh-user ec2-user --sudo -i —> is commands
-	3. ~/ramhari.pem —> I have send my aws.pem file to the workstation’s home using scp commands. (EXAMPLE: aws.pem is my pem key to connect aws machine which you create while lunching the ec2-instance)
+	3. ~/ramhari.pem —> I have send my aws.pem file to the workstation’s home directory using scp commands. (EXAMPLE:  aws.pem is my pem key to connect aws machine which you create while lunching the ec2-instance)
         4. -N nodenew2 -y —> nodenew2 is my node name
 
 

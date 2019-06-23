@@ -12,3 +12,6 @@ https://github.com/infertux/chef-msmtp/blob/master/recipes/default.rb
 
 smtp 
 https://medium.com/@jmarhee/provisioning-a-mail-server-with-chef-e769dab1c973
+
+supermarket 
+https://github.com/chef-cookbooks/postfix/blob/master/recipes/_common.rb

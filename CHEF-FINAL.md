@@ -20,7 +20,8 @@ Chef server installation in Ubuntu
 create user
 -
 * sudo chef-server-ctl user-create dhurbeg Dhurbe Rai rai.dhurebe123@gmail.com sanimabank --filename /home/ubuntu/dhurbeg.pem
- 	where,
+ 	
+where,
 	1. dhrubeg —> is username
 	2. Dhurebe Rai —> full name of the user
 	3. Email —> is user’s email
